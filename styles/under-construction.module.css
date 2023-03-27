@@ -1,0 +1,20 @@
+.main-construction {
+  position: fixed;
+  padding: 25% 25%;
+  background-image: url(/pixelated_boats_under-construction.png);
+  background-color: #ffffffff;
+  border: 5px solid rgba(var(--card-border-rgb), 0);
+  font-family: 'Ubuntu', sans-serif;
+  font-color: '4285f4'; 
+  transition: background 200ms, border 200ms;
+  border-radius: var(--border-radius);
+  background-size: cover;
+  background-position: center;
+  }
+  
+  .content {
+    background-color: #fff;
+    padding: 10px;
+    border-radius: var(--border-radius);
+
+  }

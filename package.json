@@ -6,13 +6,7 @@
     "dev": "next dev",
     "build": "next build",
     "start": "next start",
-<<<<<<< HEAD
-    "lint": "next lint",
-    "export": "next export"
-=======
-    "lint": "next lint"
->>>>>>> origin/main
-  },
+    "export": "next export"},
   "dependencies": {
     "eslint": "8.35.0",
     "eslint-config-next": "13.2.4",

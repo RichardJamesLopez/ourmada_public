@@ -4,13 +4,9 @@
   justify-content: space-between;
   align-items: center;
   padding: 6rem;
-<<<<<<< HEAD
   opacity: 0.9;
   min-height: 100vh;
   
-=======
-  min-height: 100vh;
->>>>>>> origin/main
 }
 
 .description {
@@ -21,11 +17,7 @@
   max-width: var(--max-width);
   width: 100%;
   z-index: 2;
-<<<<<<< HEAD
   font-family: 'Ubuntu', sans-serif;
-=======
-  font-family: var(--font-mono);
->>>>>>> origin/main
 }
 
 .description a {
@@ -40,7 +32,6 @@
   margin: 0;
   padding: 1rem;
   background-color: rgba(var(--callout-rgb), 0.5);
-<<<<<<< HEAD
   border: 0px solid rgba(var(--callout-border-rgb), 0.3);
   border-radius: var(--border-radius);
 }
@@ -82,33 +73,18 @@
   border: 1px solid rgba(var(--card-border-rgb), 0.15);
   background-color: #ffffffff;
 }
-=======
-  border: 1px solid rgba(var(--callout-border-rgb), 0.3);
-  border-radius: var(--border-radius);
-}
-
-.code {
-  font-weight: 700;
-  font-family: var(--font-mono);
-}
-
->>>>>>> origin/main
 .grid {
   display: grid;
   grid-template-columns: repeat(4, minmax(25%, auto));
   width: var(--max-width);
   max-width: 100%;
-<<<<<<< HEAD
   grid-gap: 20px;
-=======
->>>>>>> origin/main
 }
 
 .card {
   padding: 1rem 1.2rem;
   border-radius: var(--border-radius);
   background: rgba(var(--card-rgb), 0);
-<<<<<<< HEAD
   background-color: white;
   opacity: 0.9;
   border: 5px solid rgba(var(--card-border-rgb), 0);
@@ -119,11 +95,6 @@
   display: inline-block;
   transition: transform 200ms;
 }
-=======
-  border: 1px solid rgba(var(--card-border-rgb), 0);
-  transition: background 200ms, border 200ms;
-}
->>>>>>> origin/main
 
 .card span {
   display: inline-block;
@@ -137,11 +108,7 @@
 
 .card p {
   margin: 0;
-<<<<<<< HEAD
   opacity: 0.75;
-=======
-  opacity: 0.6;
->>>>>>> origin/main
   font-size: 0.9rem;
   line-height: 1.5;
   max-width: 30ch;
@@ -291,10 +258,7 @@
     display: flex;
     justify-content: center;
     position: fixed;
-<<<<<<< HEAD
     background-color: #ffffffff;
-=======
->>>>>>> origin/main
     width: 100%;
   }
 

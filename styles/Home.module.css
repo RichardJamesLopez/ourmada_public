@@ -38,7 +38,7 @@
 
 .appLink {
   position: fixed;
-  top: 30px;
+  top: 2%;
   right: 10%;
   padding: 1rem 1.2rem;
   border-radius: var(--border-radius);
@@ -57,8 +57,8 @@
 
 .code {
   position: fixed;
-  top: 10px;
-  left: 10%;
+  top: 2%;
+  left: 5%;
   padding: 1rem 1.2rem;
   border-radius: var(--border-radius);
   background-color: #ffffffff;
@@ -70,7 +70,7 @@
 }
 .code:hover {
   background: rgba(var(--card-rgb), 0.1);
-  border: 1px solid rgba(var(--card-border-rgb), 0.15);
+  border: 2% solid rgba(var(--card-border-rgb), 0.15);
   background-color: #ffffffff;
 }
 .grid {

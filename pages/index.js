@@ -14,11 +14,11 @@ export default function Home() {
       </Head>
 
       <main className={styles.main} style={{ backgroundImage: `url(/pixelated_boats.png)` }} >
-      <a href="/under-construction" target="_blank" className={styles.appLink} style = {{ fontSize: '30px', color: '#4285f4'}}>App</a>
+      <a href="/under-construction" target="_blank" className={styles.appLink} style = {{ color: '#4285f4'}}>App</a>
         <div className={styles.description}>
           <p>
           &nbsp;
-            <code className={styles.code} style={{ fontSize: '60px', color: '#4285f4'}}>OURMADA</code>
+            <code className={styles.code} style={{ color: '#4285f4'}}>OURMADA</code>
           </p>
         </div>
 

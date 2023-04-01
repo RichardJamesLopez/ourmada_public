@@ -8,7 +8,7 @@ export default function UnderConstruction() {
         <h1 className={styles.code}>Under Construction</h1>
         <p>We are currently buidling. &nbsp;
         </p>
-        <p>Check in with our --Talk to us-- link if you want to learn more. </p>
+        <p>Talk to us if you want to learn more. </p>
         </div>      
       </main>
     </>

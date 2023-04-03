@@ -30,7 +30,6 @@
 .description p {
   position: fixed;
   margin: 0;
-  
   background-color: rgba(var(--callout-rgb), 0.5);
   border: 0px solid rgba(var(--callout-border-rgb), 0.3);
   border-radius: var(--border-radius);

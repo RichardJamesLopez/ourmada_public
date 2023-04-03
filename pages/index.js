@@ -1,6 +1,7 @@
 import Head from 'next/head';
 import { Inter } from 'next/font/google';
 import styles from '@/styles/Home.module.css';
+import dynamic from 'next/dynamic';
 
 const inter = Inter({ subsets: ['latin'] })
 
@@ -14,17 +15,17 @@ export default function Home() {
       </Head>
 
       <main className={styles.main} style={{ backgroundImage: `url(/pixelated_boats.png)` }} >
-      <a href="/under-construction" target="_blank" className={styles.appLink} style = {{ color: '#4285f4'}}>App</a>
+      <a href="/under-construction" target="_blank" className={styles.appLink} style = {{ color: '#4285f4', fontSize: 24}}>App</a>
         <div className={styles.description}>
           <p>
           &nbsp;
-            <code className={styles.code} style={{ color: '#4285f4'}}>OURMADA</code>
+            <code className={styles.code} style={{ color: '#4285f4', fontSize: 40}} >OURMADA</code>
           </p>
         </div>
 
-        <div className={styles.grid}>
+        <div className={styles.grid} style = {{ color: '#4285f4'}}>
           <a
-            //href="https://nextjs.org/docs?utm_source=create-next-app&utm_medium=default-template&utm_campaign=create-next-app"
+            
             className={styles.card}
             target="_blank"
             rel="noopener noreferrer"

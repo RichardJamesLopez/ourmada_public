@@ -28,9 +28,9 @@
 }
 
 .description p {
-  position: relative;
+  position: fixed;
   margin: 0;
-  padding: 1rem;
+  //padding: 1rem;
   background-color: rgba(var(--callout-rgb), 0.5);
   border: 0px solid rgba(var(--callout-border-rgb), 0.3);
   border-radius: var(--border-radius);
@@ -38,34 +38,32 @@
 
 .appLink {
   position: fixed;
-  top: 2%;
-  right: 10%;
+  top: 15%;
+  left: 10%;
   padding: 1rem 1.2rem;
   border-radius: var(--border-radius);
   background-color: #ffffffff;
-  border: 5px solid rgba(var(--card-border-rgb), 0);
-  opacity: 0.925;
+  opacity: 0.9;
   font-family: 'Ubuntu', sans-serif;
   transition: background 200ms, border 200ms;
 }
 
 .appLink:hover {
   background: rgba(var(--card-rgb), 0.1);
-  border: 1px solid rgba(var(--card-border-rgb), 0.15);
+  border: 2% solid rgba(var(--card-border-rgb), 0.15);
   background-color: #ffffffff;
 }
 
-.code {
+.code{
   position: fixed;
   top: 2%;
-  left: 5%;
+  left: 10%;
   padding: 1rem 1.2rem;
   border-radius: var(--border-radius);
   background-color: #ffffffff;
   border: 5px solid rgba(var(--card-border-rgb), 0);
-  opacity: 0.9;
+  opacity: 0.9; 
   font-family: 'Ubuntu', sans-serif;
-  font-color: '4285f4'; 
   transition: background 200ms, border 200ms;
 }
 .code:hover {
@@ -75,10 +73,12 @@
 }
 .grid {
   display: grid;
-  grid-template-columns: repeat(4, minmax(25%, auto));
+  grid-template-columns: repeat(2, minmax(5px, auto));
   width: var(--max-width);
   max-width: 100%;
-  grid-gap: 20px;
+  left: 20%;
+  top: 40%;
+  grid-gap: 40px;
 }
 
 .card {
@@ -108,7 +108,7 @@
 
 .card p {
   margin: 0;
-  opacity: 0.75;
+  opacity: 0.9;
   font-size: 0.9rem;
   line-height: 1.5;
   max-width: 30ch;

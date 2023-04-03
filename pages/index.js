@@ -15,7 +15,6 @@ export default function Home() {
       </Head>
 
       <main className={styles.main} style={{ backgroundImage: `url(/pixelated_boats.png)` }} >
-      <a href="/under-construction" target="_blank" className={styles.appLink} style = {{ color: '#4285f4', fontSize: 24}}>App</a>
         <div className={styles.description}>
           <p>
           &nbsp;
@@ -55,6 +54,19 @@ export default function Home() {
               Reach out to this link to hear about the latest &nbsp;
             </p>
           </a>
+          <a
+            href="/under-construction"
+            className={styles.card}
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            <h2 className={inter.className}>
+              App
+            </h2>
+      
+          </a>
+
+          
 
           
         </div>

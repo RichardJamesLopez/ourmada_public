@@ -72,7 +72,7 @@
 }
 .grid {
   display: grid;
-  grid-template-columns: repeat(2, minmax(5px, auto));
+  grid-template-columns: repeat(3, minmax(5px, auto));
   width: var(--max-width);
   max-width: 100%;
   left: 20%;

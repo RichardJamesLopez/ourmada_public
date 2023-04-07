@@ -18,13 +18,13 @@ export default function Home() {
         <div className={styles.description}>
           <p>
           &nbsp;
-            <code className={styles.code} style={{ color: '#4285f4', fontSize: 40}} >OURMADA</code>
+            <code className={styles.code} style={{ color: '#4285f4', fontSize: 40}} >Ourmada</code>
           </p>
         </div>
 
         <div className={styles.grid} style = {{ color: '#4285f4'}}>
           <a
-            
+            href="https://mirror.xyz/ourmada.eth/mzo3OVulyfd7KW1sSlBqGhBxhTOYU4j5BpfKsKh_ZS8"
             className={styles.card}
             target="_blank"
             rel="noopener noreferrer"

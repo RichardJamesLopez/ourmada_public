@@ -221,14 +221,14 @@
   }
 
   .grid {
-    grid-template-columns: 1fr;
-    margin-bottom: 120px;
+    grid-template-columns: 2fr;
+    margin-bottom: 20px;
     max-width: 320px;
     text-align: center;
   }
 
   .card {
-    padding: 1rem 2.5rem;
+    padding: 0.1rem 2.5rem;
   }
 
   .card h2 {

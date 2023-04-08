@@ -57,10 +57,10 @@
   position: fixed;
   top: 2%;
   left: 10%;
-  padding: 1rem 1.2rem;
+  padding: 1rem 3rem;
   border-radius: var(--border-radius);
   background-color: #ffffffff;
-  border: 5px solid rgba(var(--card-border-rgb), 0);
+  border: 10px solid rgba(var(--card-border-rgb), 0);
   opacity: 0.9; 
   font-family: 'Ubuntu', sans-serif;
   transition: background 200ms, border 200ms;
@@ -222,7 +222,7 @@
 
   .grid {
     grid-template-columns: 2fr;
-    margin-top: 40%;
+    margin-top: 50%;
     margin-bottom: 120px;
     max-width: 320px;
     text-align: center;

@@ -10,7 +10,7 @@ export default function Home() {
     <>
       <Head>
         <title>make DAOs better</title>
-        <meta name="description" content="quick Splash page" />
+        <meta name="description" content="Ourmada is a modular platform for shipping DAO Tools" />
         <meta name="viewport" content="width=device-width, initial-scale=1" />
       </Head>
 

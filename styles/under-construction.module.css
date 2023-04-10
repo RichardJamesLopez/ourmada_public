@@ -1,20 +1,21 @@
 .main-construction {
   position: fixed;
-  padding: 25% 25%;
-  background-image: url(/pixelated_boats_under-construction.png);
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: #ffffff;
   background-color: #ffffffff;
   border: 5px solid rgba(var(--card-border-rgb), 0);
   font-family: 'Ubuntu', sans-serif;
-  flood-color: '4285f4'; 
-  transition: background 200ms, border 200ms;
-  border-radius: var(--border-radius);
-  background-size: cover;
-  background-position: center;
   }
-  
-  .content {
-    background-color: #fff;
-    padding: 10px;
-    border-radius: var(--border-radius);
 
-  }
+.content {
+  padding: 10px;
+  border-radius: var(--border-radius);
+  text-align: center;
+}

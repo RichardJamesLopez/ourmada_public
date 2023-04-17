@@ -42,7 +42,7 @@ export default function Home() {
           </a>
 
           <a
-            href="https://calendly.com/rich-daotools/chat-with-ourmada"
+            href="https://calendly.com/ourmada/chat-with-ourmada"
             className={styles.card}
             target="_blank"
             rel="noopener noreferrer"
